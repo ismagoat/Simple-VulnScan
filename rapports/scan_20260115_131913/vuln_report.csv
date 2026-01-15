@@ -1,0 +1,6 @@
+package,installed_version,package_type,source,cve_id,cvss_score,severity,description,fixed_version,affected_range
+pynacl,1.6.1,python,OSV,GHSA-mrfv-m5wm-5w6w,5.0,MEDIUM,libsodium has Incomplete List of Disallowed Inputs,2.5.0,See references
+urllib3,2.5.0,python,OSV,GHSA-2xpw-w6gg-jr37,5.0,MEDIUM,urllib3 streaming API improperly handles highly compressed data,2.6.0,See references
+urllib3,2.5.0,python,OSV,GHSA-38jv-5279-wg99,5.0,MEDIUM,Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API),2.6.3,See references
+urllib3,2.5.0,python,OSV,GHSA-gm62-xv2j-4w53,5.0,MEDIUM,urllib3 allows an unbounded number of links in the decompression chain,2.6.0,See references
+werkzeug,3.1.4,python,OSV,GHSA-87hc-h4r5-73f7,5.0,MEDIUM, Werkzeug safe_join() allows Windows special device names with compound extensions,3.1.5,See references

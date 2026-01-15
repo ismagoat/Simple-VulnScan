@@ -1,0 +1,66 @@
+================================================================================
+RAPPORT DE REMÉDIATION
+================================================================================
+
+
+🟡 MEDIUM (5 vulnérabilités)
+--------------------------------------------------------------------------------
+
+Paquet: pynacl v1.6.1
+CVE: GHSA-mrfv-m5wm-5w6w (CVSS: 5.0) [Source: OSV]
+Description: libsodium has Incomplete List of Disallowed Inputs
+Version corrigée: 2.5.0
+Références:
+  - https://nvd.nist.gov/vuln/detail/CVE-2025-69277
+  - https://github.com/pyca/pynacl/issues/920
+
+Commandes de remédiation:
+  pip install 'pynacl>=2.5.0'
+
+
+Paquet: urllib3 v2.5.0
+CVE: GHSA-2xpw-w6gg-jr37 (CVSS: 5.0) [Source: OSV]
+Description: urllib3 streaming API improperly handles highly compressed data
+Version corrigée: 2.6.0
+Références:
+  - https://github.com/urllib3/urllib3/security/advisories/GHSA-2xpw-w6gg-jr37
+  - https://nvd.nist.gov/vuln/detail/CVE-2025-66471
+
+Commandes de remédiation:
+  pip install 'urllib3>=2.6.0'
+
+
+Paquet: urllib3 v2.5.0
+CVE: GHSA-38jv-5279-wg99 (CVSS: 5.0) [Source: OSV]
+Description: Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)
+Version corrigée: 2.6.3
+Références:
+  - https://github.com/urllib3/urllib3/security/advisories/GHSA-38jv-5279-wg99
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-21441
+
+Commandes de remédiation:
+  pip install 'urllib3>=2.6.3'
+
+
+Paquet: urllib3 v2.5.0
+CVE: GHSA-gm62-xv2j-4w53 (CVSS: 5.0) [Source: OSV]
+Description: urllib3 allows an unbounded number of links in the decompression chain
+Version corrigée: 2.6.0
+Références:
+  - https://github.com/urllib3/urllib3/security/advisories/GHSA-gm62-xv2j-4w53
+  - https://nvd.nist.gov/vuln/detail/CVE-2025-66418
+
+Commandes de remédiation:
+  pip install 'urllib3>=2.6.0'
+
+
+Paquet: werkzeug v3.1.4
+CVE: GHSA-87hc-h4r5-73f7 (CVSS: 5.0) [Source: OSV]
+Description:  Werkzeug safe_join() allows Windows special device names with compound extensions
+Version corrigée: 3.1.5
+Références:
+  - https://github.com/pallets/werkzeug/security/advisories/GHSA-87hc-h4r5-73f7
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-21860
+
+Commandes de remédiation:
+  pip install 'werkzeug>=3.1.5'

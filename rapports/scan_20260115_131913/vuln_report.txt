@@ -1,0 +1,82 @@
+================================================================================
+RAPPORT DE SCAN DE VULNÉRABILITÉS
+================================================================================
+Date du scan: 2026-01-15 13:19:13
+Système: Windows 11
+Architecture: AMD64
+Python: 3.13.7
+Sources de données: OSV
+
+================================================================================
+RÉSUMÉ EXÉCUTIF
+================================================================================
+Total de vulnérabilités: 5
+  🔴 CRITICAL: 0
+  🟠 HIGH:     0
+  🟡 MEDIUM:   5
+  🟢 LOW:      0
+
+Score CVSS moyen: 5.0
+Score CVSS total: 25.0
+
+================================================================================
+DÉTAILS DES VULNÉRABILITÉS
+================================================================================
+
+🟡 MEDIUM - 5 vulnérabilités
+--------------------------------------------------------------------------------
+
+[1] pynacl v1.6.1
+    CVE ID: GHSA-mrfv-m5wm-5w6w
+    Source: OSV
+    CVSS Score: 5.0
+    Description: libsodium has Incomplete List of Disallowed Inputs
+    Plage affectée: See references
+    Version corrigée: 2.5.0
+    Références:
+      - https://nvd.nist.gov/vuln/detail/CVE-2025-69277
+      - https://github.com/pyca/pynacl/issues/920
+
+[2] urllib3 v2.5.0
+    CVE ID: GHSA-2xpw-w6gg-jr37
+    Source: OSV
+    CVSS Score: 5.0
+    Description: urllib3 streaming API improperly handles highly compressed data
+    Plage affectée: See references
+    Version corrigée: 2.6.0
+    Références:
+      - https://github.com/urllib3/urllib3/security/advisories/GHSA-2xpw-w6gg-jr37
+      - https://nvd.nist.gov/vuln/detail/CVE-2025-66471
+
+[3] urllib3 v2.5.0
+    CVE ID: GHSA-38jv-5279-wg99
+    Source: OSV
+    CVSS Score: 5.0
+    Description: Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)
+    Plage affectée: See references
+    Version corrigée: 2.6.3
+    Références:
+      - https://github.com/urllib3/urllib3/security/advisories/GHSA-38jv-5279-wg99
+      - https://nvd.nist.gov/vuln/detail/CVE-2026-21441
+
+[4] urllib3 v2.5.0
+    CVE ID: GHSA-gm62-xv2j-4w53
+    Source: OSV
+    CVSS Score: 5.0
+    Description: urllib3 allows an unbounded number of links in the decompression chain
+    Plage affectée: See references
+    Version corrigée: 2.6.0
+    Références:
+      - https://github.com/urllib3/urllib3/security/advisories/GHSA-gm62-xv2j-4w53
+      - https://nvd.nist.gov/vuln/detail/CVE-2025-66418
+
+[5] werkzeug v3.1.4
+    CVE ID: GHSA-87hc-h4r5-73f7
+    Source: OSV
+    CVSS Score: 5.0
+    Description:  Werkzeug safe_join() allows Windows special device names with compound extensions
+    Plage affectée: See references
+    Version corrigée: 3.1.5
+    Références:
+      - https://github.com/pallets/werkzeug/security/advisories/GHSA-87hc-h4r5-73f7
+      - https://nvd.nist.gov/vuln/detail/CVE-2026-21860
